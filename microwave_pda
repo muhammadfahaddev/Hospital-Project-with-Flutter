@@ -1,0 +1,23 @@
+// Microwave Oven as a PDA
+digraph {
+	q0 [label=q0]
+	q1 [label=q1]
+	q2 [label=q2]
+	q3 [label=q3]
+	q4 [label=q4]
+	q5 [label=q5]
+	qf [label=qf shape=doublecircle]
+	q0 -> q1 [label="Start / Push Start, R"]
+	q0 -> q0 [label="Stop / _, R"]
+	q1 -> q2 [label="Heating / Push Heating, R"]
+	q1 -> q0 [label="Defrost / Push Defrost, R"]
+	q2 -> q3 [label="Stop / _, L"]
+	q2 -> q3 [label="Heating / Push Heating, L"]
+	q2 -> q0 [label="Defrost / Push Defrost, R"]
+	q3 -> q4 [label="Start / _, L"]
+	q3 -> q0 [label="Stop / _, L"]
+	q4 -> q5 [label="Heating / _, R"]
+	q4 -> q0 [label="Defrost / _, L"]
+	q5 -> qf [label="Stop / _, R"]
+	q5 -> q0 [label="Heating / _, L"]
+}

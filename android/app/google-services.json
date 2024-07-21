@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "870712040446",
+    "project_id": "hospital-7aa99",
+    "storage_bucket": "hospital-7aa99.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:870712040446:android:bdfdd126a90e6be3f0beaf",
+        "android_client_info": {
+          "package_name": "com.example.hospital"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "870712040446-j9mta89atbl63iskkpkvhcd2g4do0eds.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.hospital",
+            "certificate_hash": "1dc5bcd644792cdfafdb419c282a485dbee58a0f"
+          }
+        },
+        {
+          "client_id": "870712040446-2l6m5t39eq4ekshsb7dh4pmqcgsc8mvt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAjUbAY3WzQD6D_o7OLGN_D34Yhs4j2ftU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "870712040446-2l6m5t39eq4ekshsb7dh4pmqcgsc8mvt.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "870712040446-ascv80l1h19c8hqn6l13aavra7ubnna7.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.hospital"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

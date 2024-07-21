@@ -1,0 +1,31 @@
+digraph PDA {
+	rankdir=LR
+	node [shape=doublecircle]
+	q0
+	q8
+	node [shape=circle]
+	"q0 Z" -> "q1 CZ" [label="cr, "]
+	"q0 Z" -> "q0 " [label="wr, "]
+	"q0 Z" -> "q0 " [label="ne, "]
+	"q1 C" -> "q2 CC" [label="cr, "]
+	"q1 C" -> "q0 " [label="wr, C"]
+	"q1 C" -> "q1 C" [label="ne, "]
+	"q2 C" -> "q3 CC" [label="cr, "]
+	"q2 C" -> "q0 " [label="wr, C"]
+	"q2 C" -> "q2 C" [label="ne, "]
+	"q3 C" -> "q4 CC" [label="cr, "]
+	"q3 C" -> "q0 " [label="wr, C"]
+	"q3 C" -> "q3 C" [label="ne, "]
+	"q4 C" -> "q5 CC" [label="cr, "]
+	"q4 C" -> "q0 " [label="wr, C"]
+	"q4 C" -> "q4 C" [label="ne, "]
+	"q5 C" -> "q6 CC" [label="cr, "]
+	"q5 C" -> "q0 " [label="wr, C"]
+	"q5 C" -> "q5 C" [label="ne, "]
+	"q6 C" -> "q7 CC" [label="cr, "]
+	"q6 C" -> "q0 " [label="wr, C"]
+	"q6 C" -> "q6 C" [label="ne, "]
+	"q7 C" -> "q8 CC" [label="cr, "]
+	"q7 C" -> "q0 " [label="wr, C"]
+	"q7 C" -> "q7 C" [label="ne, "]
+}
