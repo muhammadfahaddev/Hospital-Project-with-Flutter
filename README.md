@@ -1,16 +1,49 @@
-# hospital
+# 🏥 Hospital Management System – Flutter & Firebase App (with ZegoCloud Video API)
 
-A new Flutter project.
+A comprehensive hospital management system developed using **Flutter** for the frontend and **Firebase** as the backend. This solution includes three dedicated portals—**Admin**, **Patient (User)**, and **Doctor**—each tailored to streamline healthcare operations and improve user experience. The system also integrates **ZegoCloud API** for seamless and secure video consultations.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## 🔧 Technologies Used
 
-A few resources to get you started if this is your first Flutter project:
+- **Flutter** – Cross-platform mobile application framework
+- **Firebase** – Backend services (Authentication, Firestore, Cloud Functions, Storage)
+- **ZegoCloud API** – Real-time video calling integration
+- **Provider / Riverpod / Bloc** (depending on your state management)
+- **RESTful APIs** / **Firebase Functions**
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 🔐 Key Features
+
+### 📊 Admin Portal
+
+- **Dashboard Overview:** Real-time insights into hospital operations and KPIs.
+- **Scheduling:** Manage doctors' shifts, appointments, and patient queues.
+- **Resource Allocation:** Assign and monitor availability of hospital assets and rooms.
+- **Staff Management:** Add, update, and track doctors, nurses, and support staff.
+- **Analytics & Reporting:** Generate reports on patient flow, appointment trends, and system usage.
+- **System Monitoring:** Monitor uptime and user activity for proactive issue resolution.
+
+### 👨‍⚕️ Doctor Portal
+
+- **Profile Management:** Manage personal details, specialties, and availability.
+- **Patient Records:** View complete patient history, prescriptions, and diagnostics.
+- **Virtual Consultations:** Secure video calls with patients via ZegoCloud API.
+- **Schedule Management:** Set and manage availability for appointments.
+- **Patient Monitoring:** Track real-time vitals (if integrated with wearable APIs or patient input).
+- **Secure Messaging:** Communicate with patients and other doctors securely.
+
+### 👤 User (Patient) Portal
+
+- **Registration & Login:** Firebase Authentication for secure access.
+- **Medical Records:** Access history of appointments, diagnoses, lab results, and prescriptions.
+- **Appointment Booking:** Easy scheduling with available doctors.
+- **Prescription Management:** View current prescriptions and receive updates.
+- **Health Tracking:** Monitor key health metrics and sync with third-party devices (optional).
+- **Secure Communication:** Encrypted messaging and video calling with healthcare providers.
+
+---
+
+## 🧱 Project Structure (High-Level)
+
