@@ -45,5 +45,4 @@ A comprehensive hospital management system developed using **Flutter** for the f
 
 ---
 
-## 🧱 Project Structure (High-Level)
 
